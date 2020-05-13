@@ -1,0 +1,1288 @@
+2020-05-13 23:33:41 [scrapy.utils.log] INFO: Scrapy 2.1.0 started (bot: wikiSpider)
+2020-05-13 23:33:41 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 20.3.0, Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.18362-SP0
+2020-05-13 23:33:41 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2020-05-13 23:34:32 [scrapy.utils.log] INFO: Scrapy 2.1.0 started (bot: wikiSpider)
+2020-05-13 23:34:32 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 20.3.0, Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.18362-SP0
+2020-05-13 23:34:32 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2020-05-13 23:34:52 [scrapy.utils.log] INFO: Scrapy 2.1.0 started (bot: wikiSpider)
+2020-05-13 23:34:52 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 20.3.0, Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.18362-SP0
+2020-05-13 23:34:52 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2020-05-13 23:34:52 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'wikiSpider',
+ 'LOG_FILE': 'wiki.log',
+ 'NEWSPIDER_MODULE': 'wikiSpider.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_LOADER_WARN_ONLY': True,
+ 'SPIDER_MODULES': ['wikiSpider.spiders']}
+2020-05-13 23:34:52 [scrapy.extensions.telnet] INFO: Telnet Password: 3ceeb7bf372af842
+2020-05-13 23:34:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-05-13 23:34:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-05-13 23:34:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-05-13 23:34:54 [scrapy.middleware] INFO: Enabled item pipelines:
+['wikiSpider.pipelines.WikispiderPipeline']
+2020-05-13 23:34:54 [scrapy.core.engine] INFO: Spider opened
+2020-05-13 23:34:54 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-13 23:34:54 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-05-13 23:34:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/robots.txt> (referer: None)
+2020-05-13 23:34:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Benevolent_dictator_for_life> (referer: None)
+2020-05-13 23:34:56 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://en.wikipedia.org/wiki/Benevolent_dictator_for_life#p-search> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2020-05-13 23:34:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Benevolent_dictator_for_life#mw-head> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Benevolent_dictator_for_life>
+{'lastUpdated': '2020-05-11 21:48:00',
+ 'text': 'For the political term, see Benevolent dictatorship.Benevolent '
+         'dictator for life (BDFL) is a title given to a small number of '
+         'open-source software development leaders, typically project founders '
+         'who retain the final say in disputes or arguments within the '
+         'community. The phrase originated in 1995 with reference to Guido van '
+         'Rossum, creator of the Python programming language.[1][2] Shortly '
+         'after Van Rossum joined the Corporation for National Research '
+         'Initiatives, the term appeared in a follow-up mail by Ken Manheimer '
+         'to a meeting trying to create a semi-formal group that would oversee '
+         'Python development and workshops; this initial use included an '
+         'additional joke of naming Van Rossum the "First Interim BDFL".[1] '
+         'Van Rossum announced on July 12, 2018, that he would be stepping '
+         'down as BDFL of Python.[3]BDFL should not be confused with the more '
+         'common term for open-source leaders, "benevolent dictator", which '
+         'was popularized by Eric S. Raymond\'s essay "Homesteading the '
+         'Noosphere" (1999).[4] Among other topics related to hacker culture, '
+         'Raymond elaborates on how the nature of open source forces the '
+         '"dictatorship" to keep itself benevolent, since a strong '
+         'disagreement can lead to the forking of the project under the rule '
+         'of new leaders.\n'
+         'Referrant candidates[edit]\n'
+         '\n'
+         'Name\n'
+         'Project\n',
+ 'title': 'Benevolent dictator for life',
+ 'url': 'https://en.wikipedia.org/wiki/Benevolent_dictator_for_life'}
+2020-05-13 23:34:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Dries_Buytaert> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Dries_Buytaert>
+{'lastUpdated': '2020-01-12 00:14:00',
+ 'text': '  Dries Buytaert at FOSDEM 2008.Dries Buytaert (born 19 November '
+         '1978 in Wilrijk, Antwerp, Belgium)[1] is an open-source '
+         'softwareprogrammer notable as founder and lead developer of the '
+         'Drupal content management '
+         'system.[2][3][4]Contents1Career2References3External '
+         'links3.1Interviews3.2Talks',
+ 'title': 'Dries Buytaert',
+ 'url': 'https://en.wikipedia.org/wiki/Dries_Buytaert'}
+2020-05-13 23:34:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/David_Heinemeier_Hansson> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Elm_(programming_language)> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Vitalik_Buterin> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Spacemacs> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/David_Heinemeier_Hansson>
+{'lastUpdated': '2020-04-16 09:59:00',
+ 'text': 'Not to be confused with David Hanson (computer scientist).David '
+         "Heinemeier HanssonHansson at the 2006 O'Reilly Emerging Technology "
+         'ConferenceBorn (1979-10-15) 15 October 1979 (age\xa0'
+         '40)[1]Copenhagen, DenmarkOther\xa0'
+         'namesDHHOccupationProgrammer[2]EmployerBasecampKnown\xa0forRuby on '
+         'RailsWebsitedhh.dkDavid Heinemeier Hansson (born 15 October 1979) is '
+         'a Danishprogrammer, racing driver and the creator of the popular '
+         'Ruby on Railsweb developmentframework and the Instiki wiki.[3] He is '
+         'also a partner at the web-based software development firm '
+         'Basecamp. \n'
+         'Hansson co-wrote ',
+ 'title': 'David Heinemeier Hansson',
+ 'url': 'https://en.wikipedia.org/wiki/David_Heinemeier_Hansson'}
+2020-05-13 23:34:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Ruby_on_Rails> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Ethereum> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Elm_(programming_language)>
+{'lastUpdated': '2020-05-11 17:43:00',
+ 'text': 'This article relies too much on references to primary sources. '
+         'Please improve this  by adding secondary or tertiary sources.  (May '
+         '2019) (Learn how and when to remove this template '
+         'message)ElmParadigmFunctionalDesigned\xa0byEvan CzaplickiFirst\xa0'
+         'appearedMarch\xa030, 2012; 8 years ago\xa0(2012-03-30)[1]Stable '
+         'release0.19.1\n'
+         '   / October\xa021, 2019; 6 months ago\xa0(2019-10-21)[2]Typing '
+         'disciplineStatic, Strong, InferredLicensePermissive (Revised '
+         'BSD)[3]Filename extensions',
+ 'title': 'Elm (programming language)',
+ 'url': 'https://en.wikipedia.org/wiki/Elm_(programming_language)'}
+2020-05-13 23:34:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Vitalik_Buterin>
+{'lastUpdated': '2020-03-29 01:06:00',
+ 'text': 'Russian-Canadian programmer and writerVitalik ButerinVitalik '
+         'Buterin, 2016Born (1994-01-31) January 31, 1994 (age\xa026)Kolomna, '
+         'RussiaNationalityRussian-CanadianAlma\xa0materUniversity of '
+         'Waterloo(dropped out)Known\xa0forEthereum, Bitcoin '
+         'MagazineAwardsThiel FellowshipScientific careerFieldsDigital '
+         'contracts, digital currencies, game theoryWebsitevitalik.caVitaly '
+         'Dmitriyevich "Vitalik" Buterin (Russian: Виталий Дмитриевич Бутерин; '
+         'born January 31, 1994) is a Russian-Canadianprogrammer and writer '
+         'primarily known as a co-founder of Ethereum and as a co-founder of ',
+ 'title': 'Vitalik Buterin',
+ 'url': 'https://en.wikipedia.org/wiki/Vitalik_Buterin'}
+2020-05-13 23:34:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Spacemacs>
+{'lastUpdated': '2019-06-13 12:29:00',
+ 'text': 'Free softwareSpacemacsSpacemacs with recent files and editing '
+         'windows openOriginal author(s)Sylvain Benner[1]Developer(s)Sylvain '
+         'Benner and many others[2]Initial release30\xa0October 2014; 5 years '
+         'ago\xa0(2014-10-30)Stable release0.200.13[3]\n'
+         '   / 25\xa0January 2018; 2 years ago\xa0(2018-01-25)Written inEmacs '
+         'LispOperating systemUnix, Linux, Windows NT, macOSAvailable '
+         'inEnglish (by default)TypeText '
+         'editorLicenseGPLv3[4]Websitespacemacs.orgSpacemacs is a '
+         'configuration framework for ',
+ 'title': 'Spacemacs',
+ 'url': 'https://en.wikipedia.org/wiki/Spacemacs'}
+2020-05-13 23:34:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Hacker_culture> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Ruby_on_Rails>
+{'lastUpdated': '2020-05-07 19:00:00',
+ 'text': 'Not to be confused with Ruby (programming language).Ruby on '
+         'RailsOriginal author(s)David Heinemeier HanssonInitial release13\xa0'
+         'December 2005; 14 years ago\xa0(2005-12-13)[1]Stable release6.0.3 '
+         '(May\xa06, 2020; 2 days ago\xa0(2020-05-06)[2]) [±]RepositoryRails '
+         'RepositoryWritten inRubySize57.8 MB[3]TypeWeb application '
+         'frameworkLicenseMIT LicenseWebsiterubyonrails.orgRuby on Rails, or '
+         'Rails, is a server-sideweb application framework written in Ruby '
+         'under the ',
+ 'title': 'Ruby on Rails',
+ 'url': 'https://en.wikipedia.org/wiki/Ruby_on_Rails'}
+2020-05-13 23:34:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Ken_Manheimer> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Ethereum>
+{'lastUpdated': '2020-05-04 23:25:00',
+ 'text': 'Open source blockchain computing platformEthereumEthereum '
+         'LogoOriginal author(s)Vitalik Buterin, Gavin '
+         'WoodDeveloper(s)Ethereum FoundationInitial release30\xa0July 2015; 4 '
+         'years ago\xa0(2015-07-30)Stable releaseMuir Glacier / 1\xa0January '
+         '2020; 4 months ago\xa0(2020-01-01)Development statusActiveSoftware '
+         'usedEVM 1 BytecodeWritten inGo, Rust,  C#,  C++, Java, '
+         'PythonOperating systemCross-platformPlatformx86-64, ARMSize300 GB '
+         '(2020-03)TypeDistributed ComputingLicense',
+ 'title': 'Ethereum',
+ 'url': 'https://en.wikipedia.org/wiki/Ethereum'}
+2020-05-13 23:34:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Main_Page> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Corporation_for_National_Research_Initiatives> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Homesteading_the_Noosphere> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Hacker_culture>
+{'lastUpdated': '2020-03-31 12:21:00',
+ 'text': 'Subculture of individualsNot to be confused with Security '
+         'hacker.This article has multiple issues. Please help improve it or '
+         'discuss these issues on the talk page. (Learn how and when to remove '
+         'these template messages)\n'
+         "      This article's tone or style may not reflect the encyclopedic "
+         "tone used on Wikipedia. See Wikipedia's guide to writing better "
+         'articles for suggestions.  (June 2011) (Learn how and when to remove '
+         'this template message)This article needs additional citations for '
+         'verification. Please help improve this article by adding citations '
+         'to reliable sources. Unsourced material may be challenged and '
+         'removed.Find sources:\xa0"Hacker culture"\xa0–\xa0news\xa0',
+ 'title': 'Hacker culture',
+ 'url': 'https://en.wikipedia.org/wiki/Hacker_culture'}
+2020-05-13 23:34:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Fork_(software_development)> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Ken_Manheimer>
+{'lastUpdated': '2019-12-19 16:41:00',
+ 'text': 'Ken Manheimer has been a prominent software developer of Zope and '
+         'GNU Mailman who worked for NIST, CNRI, Digital Creations and Zope '
+         "Corporation, and SpiderOak. He's been listed by Guido van Rossum "
+         'together with Barry Warsaw as the probable inventor of the term '
+         'Benevolent Dictator For Life (during his CNRI tenure).[1]Famous '
+         'quotes[edit]"computers usefulness is ridiculously improbable.  you '
+         'can quote me."References[edit]^"Origin of BDFL". Archived from the '
+         'original on 2010-12-20..mw-parser-output '
+         'cite.citation{font-style:inherit}.mw-parser-output .citation '
+         'q{quotes:"\\"""\\"""\'""\'"}.mw-parser-output .id-lock-free '
+         'a,.mw-parser-output .citation .cs1-lock-free '
+         'a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg");background-repeat:no-repeat;background-size:9px;background-position:right '
+         '.1em center}.mw-parser-output .id-lock-limited a,.mw-parser-output '
+         '.id-lock-registration a,.mw-parser-output .citation '
+         '.cs1-lock-limited a,.mw-parser-output .citation '
+         '.cs1-lock-registration '
+         'a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lock-gray-alt-2.svg/9px-Lock-gray-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right '
+         '.1em center}.mw-parser-output .id-lock-subscription '
+         'a,.mw-parser-output .citation .cs1-lock-subscription '
+         'a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Lock-red-alt-2.svg/9px-Lock-red-alt-2.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg");background-repeat:no-repeat;background-size:9px;background-position:right '
+         '.1em center}.mw-parser-output .cs1-subscription,.mw-parser-output '
+         '.cs1-registration{color:#555}.mw-parser-output .cs1-subscription '
+         'span,.mw-parser-output .cs1-registration span{border-bottom:1px '
+         'dotted;cursor:help}.mw-parser-output .cs1-ws-icon '
+         'a{background-image:url("//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/12px-Wikisource-logo.svg.png");background-image:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg");background-repeat:no-repeat;background-size:12px;background-position:right '
+         '.1em center}.mw-parser-output '
+         'code.cs1-code{color:inherit;background:inherit;border:inherit;padding:inherit}.mw-parser-output '
+         '.cs1-hidden-error{display:none;font-size:100%}.mw-parser-output '
+         '.cs1-visible-error{font-size:100%}.mw-parser-output '
+         '.cs1-maint{display:none;color:#33aa33;margin-left:0.3em}.mw-parser-output '
+         '.cs1-subscription,.mw-parser-output '
+         '.cs1-registration,.mw-parser-output '
+         '.cs1-format{font-size:95%}.mw-parser-output '
+         '.cs1-kern-left,.mw-parser-output '
+         '.cs1-kern-wl-left{padding-left:0.2em}.mw-parser-output '
+         '.cs1-kern-right,.mw-parser-output '
+         '.cs1-kern-wl-right{padding-right:0.2em}.mw-parser-output .citation '
+         '.mw-selflink{font-weight:inherit}"Feasting on life with veteran '
+         'programmer Ken Manheimer".',
+ 'title': 'Ken Manheimer',
+ 'url': 'https://en.wikipedia.org/wiki/Ken_Manheimer'}
+2020-05-13 23:34:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Emacs> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Linux.com> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Corporation_for_National_Research_Initiatives>
+{'lastUpdated': '2019-09-17 04:08:00',
+ 'text': 'The Corporation for National Research Initiatives (CNRI), based in '
+         'Reston, Virginia, is a non-profit organization founded in 1986 by '
+         'Robert E. Kahn as an "activities center around strategic development '
+         'of network-based information technologies", including the National '
+         'Information Infrastructure (NII) in the United States.[1]CNRI '
+         'develops the Handle System for managing and locating digital '
+         'information.[2]  CNRI obtained DARPA funding for the development of '
+         'JPython (Jython), a Python implementation in and for Java, initially '
+         'created by Jim Hugunin.[3]Contents1History2Handle '
+         'System3D-Lib4Software',
+ 'title': 'Corporation for National Research Initiatives',
+ 'url': 'https://en.wikipedia.org/wiki/Corporation_for_National_Research_Initiatives'}
+2020-05-13 23:34:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Homesteading_the_Noosphere>
+{'lastUpdated': '2020-04-17 19:59:00',
+ 'text': '"Homesteading the Noosphere" (abbreviated HtN) is an essay written '
+         'by Eric S. Raymond about the social workings of open-sourcesoftware '
+         'development. It follows his previous piece "The Cathedral and the '
+         'Bazaar" (1997).\n'
+         'The essay examines issues of project ownership and transfer, as well '
+         'as investigating possible anthropological roots of the gift culture '
+         'in open source as contrasted with the exchange culture of closed '
+         'source software. Raymond also investigates the nature of the spread '
+         'of open source into the untamed frontier of ideas he terms the '
+         'noosphere, postulating that projects that range too far ahead of '
+         'their time fail because they are too far out in the wilderness, and '
+         'that successful projects tend to relate to existing projects.\n'
+         'Raymond delves into the contrast between the stated aims of open '
+         'source and observed behaviors, and also explores the underlying '
+         'motivations of people involved in the open source movement. He notes '
+         'that a key motivation for open source practitioners is having a '
+         'great reputation within the "tribe".\n'
+         'Contents1Citations2In popular culture3See also4References',
+ 'title': 'Homesteading the Noosphere',
+ 'url': 'https://en.wikipedia.org/wiki/Homesteading_the_Noosphere'}
+2020-05-13 23:34:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Main_Page>
+{'lastUpdated': '2020-05-12 18:36:00',
+ 'text': 'body.skin-minerva .mw-parser-output table,body.skin-minerva '
+         '.mw-parser-output tr,body.skin-minerva .mw-parser-output '
+         'td,body.skin-minerva .mw-parser-output '
+         'tbody{display:block!important;width:100%!important;box-sizing:border-box}body.skin-minerva '
+         '.mw-parser-output '
+         '#mp-topbanner{min-width:0!important;white-space:initial!important}body.skin-minerva '
+         '.mw-parser-output #mp-topbanner>ul{display:none}body.skin-minerva '
+         '.mw-parser-output '
+         '#mp-topbanner>div{width:auto!important}body.skin-minerva '
+         '.mw-parser-output #mp-tfp tr td:first-child '
+         'a{text-align:center;display:block}body.skin-minerva '
+         '.mw-parser-output #sister-projects-list>div{width:49%}Welcome to '
+         'Wikipedia,the freeencyclopedia that anyone can edit.6,077,169 '
+         'articles in '
+         'EnglishArtsBiographyGeographyHistoryMathematicsScienceSocietyTechnologyAll '
+         "portalsFrom today's featured articleConnor Trinneer",
+ 'title': 'Main Page',
+ 'url': 'https://en.wikipedia.org/wiki/Main_Page'}
+2020-05-13 23:34:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Red_Hat> (referer: https://en.wikipedia.org/wiki/Dries_Buytaert)
+2020-05-13 23:34:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Fork_(software_development)>
+{'lastUpdated': '2020-02-29 06:52:00',
+ 'text': '  A timeline chart of how Linux distributions have forked.In '
+         'software engineering, a project fork happens when developers take a '
+         'copy of source code from one software package and start independent '
+         'development on it, creating a distinct and separate piece of '
+         'software. The term often implies not merely a development branch, '
+         'but also a split in the developer community, a form of '
+         'schism.[1]Free and open-source software is that which, by '
+         'definition, may be forked from the original development team without '
+         'prior permission, without violating copyright law. However, licensed '
+         'forks of proprietary software (e.g.Unix) also happen.\n'
+         'Contents1Etymology2Forking of free and open-source software3Forking '
+         'proprietary software4See also5',
+ 'title': 'Fork (software development)',
+ 'url': 'https://en.wikipedia.org/wiki/Fork_(software_development)'}
+2020-05-13 23:34:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Linux.com>
+{'lastUpdated': '2020-02-28 11:59:00',
+ 'text': 'This article has multiple issues. Please help improve it or discuss '
+         'these issues on the talk page. (Learn how and when to remove these '
+         'template messages)\n'
+         "      This article's factual accuracy may be compromised due to "
+         'out-of-date information. Please update this article to reflect '
+         'recent events or newly available information.  (November 2010)This '
+         'article needs additional citations for verification. Please help '
+         'improve this article by adding citations to reliable sources. '
+         'Unsourced material may be challenged and removed.Find sources:\xa0'
+         '"Linux.com"\xa0–\xa0news\xa0·newspapers\xa0·books\xa0·scholar\xa0·',
+ 'title': 'Linux.com',
+ 'url': 'https://en.wikipedia.org/wiki/Linux.com'}
+2020-05-13 23:34:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Emacs>
+{'lastUpdated': '2020-05-13 08:51:00',
+ 'text': 'Family of text editorsNot to be confused with eMac.This article is '
+         'about the class of text editors. For the most popular current '
+         'example, see GNU Emacs.EmacsEditing multiple Dired buffers in GNU '
+         'EmacsOriginal author(s)Carl Mikkelsen,David A. Moon,Guy L. Steele '
+         'Jr.Developer(s)Various open-source and commercial developersInitial '
+         'release1976; 44\xa0years ago\xa0(1976)[1][2]Stable release26.3 '
+         '(August\xa028, 2019; 8 months ago\xa0(2019-08-28)) [±]Written '
+         'inLisp, COperating systemCross-platform',
+ 'title': 'Emacs',
+ 'url': 'https://en.wikipedia.org/wiki/Emacs'}
+2020-05-13 23:34:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Drupal> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Red_Hat>
+{'lastUpdated': '2020-05-07 12:43:00',
+ 'text': 'This article is about the software company. For other uses, see Red '
+         'Hat (disambiguation).American software company owned by IBM '
+         'providing open source software products to enterprisesRed Hat, '
+         'Inc.New logo of Red Hat since May 1, 2019[1]Red Hat Tower, the '
+         'headquarters of Red HatTypeStrategic Business '
+         'UnitISINUS7565771026\xa0IndustryComputer softwarePredecessorCygnus '
+         'Solutions, ArsDigita, JBoss, C2Net, Sistina Software\xa0Founded1993; '
+         '27\xa0years ago\xa0(1993)[2]FounderBob YoungMarc '
+         'EwingHeadquartersRaleigh, North Carolina, U.S.Area '
+         'servedWorldwideKey peoplePaul Cormier (President and '
+         'CEO)[3]ProductsRed Hat Enterprise LinuxRed Hat Directory '
+         'ServerFedoraSatellite',
+ 'title': 'Red Hat',
+ 'url': 'https://en.wikipedia.org/wiki/Red_Hat'}
+2020-05-13 23:34:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/ISBN_(identifier)> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:34:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Ergonomics> (referer: https://en.wikipedia.org/wiki/Spacemacs)
+2020-05-13 23:35:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/BusinessWeek> (referer: https://en.wikipedia.org/wiki/Dries_Buytaert)
+2020-05-13 23:35:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Wikinews> (referer: https://en.wikipedia.org/wiki/Dries_Buytaert)
+2020-05-13 23:35:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/CNET> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:35:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/OAK_Racing> (referer: https://en.wikipedia.org/wiki/David_Heinemeier_Hansson)
+2020-05-13 23:35:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Drupal>
+{'lastUpdated': '2020-04-30 21:40:00',
+ 'text': 'Web content management systemDrupalDrupal 8 in action. Showing '
+         'in-context editing and previews (WYSIWYG).Original author(s)Dries '
+         'BuytaertDeveloper(s)Drupal communityInitial releaseMay\xa018, 2000; '
+         '19 years ago\xa0(2000-05-18)[1]Stable release8.8.5[2]\n'
+         '   / 2020-04-02[±]Preview release9.0.0-beta2\n'
+         '   / 2020-03-30[2]RepositoryDrupal RepositoryWritten inPHP, using '
+         'SymfonyOperating systemUnix-like, WindowsPlatformWeb '
+         'platformSize80\xa0MB (uncompressed Drupal 8 core)[3]TypeContent '
+         'management framework, content management system, blog '
+         'softwareLicenseGPLv2+[4]',
+ 'title': 'Drupal',
+ 'url': 'https://en.wikipedia.org/wiki/Drupal'}
+2020-05-13 23:35:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/MicroEMACS> (referer: https://en.wikipedia.org/wiki/Spacemacs)
+2020-05-13 23:35:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/ISBN_(identifier)>
+{'lastUpdated': '2020-05-11 19:03:00',
+ 'text': 'Not to be confused with ICCU SBN.Unique numeric book '
+         'identifierInternational Standard Book NumberA 13-digit ISBN, '
+         '978-3-16-148410-0, as represented by an EAN-13 bar '
+         'codeAcronymISBNOrganisationInternational ISBN AgencyIntroduced1970; '
+         '50\xa0years ago\xa0(1970)No.\xa0of\xa0digits13 (formerly 10)Check '
+         'digitWeighted '
+         'sumExample978-3-16-148410-0Websiteisbn-international.orgThe '
+         'International Standard Book Number (ISBN) is a numeric commercial '
+         'bookidentifier which is intended to be unique.[a][b] Publishers '
+         'purchase ISBNs from an affiliate of the International ISBN '
+         'Agency.[1]An ISBN is assigned to each separate edition and variation '
+         '(except reprintings) of a publication. For example, an e-book, a '
+         'paperback',
+ 'title': 'International Standard Book Number',
+ 'url': 'https://en.wikipedia.org/wiki/ISBN_(identifier)'}
+2020-05-13 23:35:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Ergonomics>
+{'lastUpdated': '2020-05-09 16:28:00',
+ 'text': '"Human factors" and "ergonomics" redirect here. For the journal, see '
+         'Human Factors (journal).Application of psychological and '
+         'physiological principles to engineering and designPlay media  '
+         'Practical demonstrations of ergonomic principlesHuman factors and '
+         'ergonomics (commonly referred to as human factors) is the '
+         'application of psychological and physiological principles to the '
+         'engineering and design of products, processes, and systems. The goal '
+         'of human factors is to reduce human error, increase productivity, '
+         'and enhance safety and comfort with a specific focus on the '
+         'interaction between the human and the thing of interest.[1]The field '
+         'is a combination of numerous disciplines, such as psychology, '
+         'sociology, engineering, biomechanics, industrial design, physiology, '
+         'anthropometry, interaction design, visual design, user experience, '
+         'and user interface design. In research, human factors employs the '
+         'scientific method to study human behavior so that the resultant data '
+         'may be applied to the four primary goals. In essence, it is the '
+         'study of designing equipment, devices and processes that fit the '
+         'human body and its cognitive abilities. The two terms "human '
+         'factors" and "ergonomics" are essentially synonymous.[2][3][4]The '
+         'International Ergonomics Association defines ergonomics or human '
+         'factors as follows:[5]',
+ 'title': 'Human factors and ergonomics',
+ 'url': 'https://en.wikipedia.org/wiki/Ergonomics'}
+2020-05-13 23:35:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Dissociated_press> (referer: https://en.wikipedia.org/wiki/Spacemacs)
+2020-05-13 23:35:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Satoshi_Nakamoto> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Eric_S._Raymond> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:35:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/BusinessWeek>
+{'lastUpdated': '2020-05-08 11:00:00',
+ 'text': 'American weekly business magazine based in New York CityBloomberg '
+         'BusinessweekJanuary 10, 2011 cover ofBloomberg '
+         'BusinessweekEditorJoel WeberCategoriesBusinessFrequencyWeeklyTotal '
+         'circulation(2018)325,000[1]First issueSeptember\xa01929; 90\xa0years '
+         'ago\xa0(1929-09)CompanyBloomberg L.P.CountryUnited StatesBased inNew '
+         'York '
+         'CityLanguageEnglishWebsitewww.bloomberg.com/businessweekISSN0007-7135This '
+         'article is part of a series aboutMichael BloombergPolitical '
+         'positionsElectoral history',
+ 'title': None,
+ 'url': 'https://en.wikipedia.org/wiki/BusinessWeek'}
+2020-05-13 23:35:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Wikinews>
+{'lastUpdated': '2020-05-11 23:28:00',
+ 'text': 'WikinewsThe current Wikinews logoScreenshot of wikinews.orgType of '
+         'siteNews wikiAvailable\xa0inMultilingualHeadquartersMiami, '
+         'FloridaOwnerWikimedia FoundationCreated\xa0byWikimedia '
+         'communityURLwww.wikinews.orgAlexa rank 62,218 (January '
+         '2020[update])[1]CommercialNoRegistrationOptionalLaunchedNovember\xa0'
+         '8, 2004; 15 years ago\xa0(2004-11-08)Content licenceCC-BYWikinews is '
+         'a free-contentnews sourcewiki and a ',
+ 'title': 'Wikinews',
+ 'url': 'https://en.wikipedia.org/wiki/Wikinews'}
+2020-05-13 23:35:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/CNET>
+{'lastUpdated': '2020-04-30 18:05:00',
+ 'text': '"CNET Networks" redirects here. For the successor online media '
+         'company, see CBS Interactive."News.com" redirects here. For the '
+         'Australian news website, see news.com.au.For Centre National '
+         "d'Études des Télécommunications (CNET), the research and development "
+         'centre of France Télécom, see France Télécom and Centre national '
+         "d'études des télécommunications.American media website about "
+         'technology and consumer electronicsCNETScreenshotType of '
+         'siteTechnology NewsOwnerCBS Interactive(ViacomCBS)Created\xa0'
+         'byHalsey Minor Shelby BonnieEditorLindsey Turrentine  Connie '
+         'GuglielmoIndustryJournalismURLcnet.comAlexa rank 163 (As of April\xa0'
+         '24, 2020[update])[1]CommercialYesRegistrationOptional',
+ 'title': 'CNET',
+ 'url': 'https://en.wikipedia.org/wiki/CNET'}
+2020-05-13 23:35:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/OAK_Racing>
+{'lastUpdated': '2019-11-10 10:36:00',
+ 'text': 'French auto racing team OAK RacingFounded1980Team '
+         'principal(s)Jacques Nicolet (2007–present)Current seriesFIA World '
+         'Endurance ChampionshipFormer seriesAsian Le Mans SeriesFrench '
+         'F3Noted driversOliver PlaJulien CanalRoman RusinovDavid Heinemeier '
+         "HanssonTeams'Championships2013 FIA WECLMP2 "
+         "classDrivers'Championships2013 (Baguette, Plowman, González)OAK "
+         'Racing is an endurance racing team specialising in sports prototypes '
+         'based in Le Mans, France. In ',
+ 'title': 'OAK Racing',
+ 'url': 'https://en.wikipedia.org/wiki/OAK_Racing'}
+2020-05-13 23:35:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Daniel_Weinreb> (referer: https://en.wikipedia.org/wiki/Spacemacs)
+2020-05-13 23:35:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Ethereum_Classic> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/List_of_software_categories> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/MicroEMACS>
+{'lastUpdated': '2020-02-14 22:24:00',
+ 'text': 'MicroEMACSuEmacs/Pk 4.0.15 on LinuxDeveloper(s)Dave Conroy, Daniel '
+         'M. LawrenceInitial release1985; 35\xa0years ago\xa0(1985)Stable '
+         'release4.0\n'
+         '   /    March\xa020, 1996; 24 years ago\xa0(1996-03-20)Preview '
+         'release5.0\n'
+         '   Written inANSI COperating systemMultiplatformTypeText '
+         'editorLicenseSource-available software; commercial use is '
+         'prohibited[1]MicroEMACS is a small, portableEmacs-like text editor '
+         'originally written by Dave Conroy in 1985, and further developed by '
+         'Daniel M. Lawrence (1958–2010[2][3]) and was maintained by him. '
+         'MicroEMACS has been ported to many operating systems, including '
+         'CP/M,[4]MS-DOS, Microsoft Windows',
+ 'title': 'MicroEMACS',
+ 'url': 'https://en.wikipedia.org/wiki/MicroEMACS'}
+2020-05-13 23:35:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Accenture> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/SHA-3> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Distributed_computing> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Conkeror> (referer: https://en.wikipedia.org/wiki/Spacemacs)
+2020-05-13 23:35:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Dissociated_press>
+{'lastUpdated': '2019-12-13 20:47:00',
+ 'text': 'Dissociated press is a parody generator (a computer program that '
+         'generates nonsensical text). The generated text is based on another '
+         'text using the Markov chain technique. The name is a play on '
+         '"Associated Press" and the psychiatric term dissociative identity '
+         'disorder (which may result in somewhat similar word salad during '
+         'quick switches between personalities).\n'
+         'An implementation of the algorithm is available in Emacs. Another '
+         'implementation is available as a Perl module in CPAN, '
+         'Games::Dissociate.[1]Contents1The algorithm2Examples3History4See '
+         'also5References',
+ 'title': 'Dissociated press',
+ 'url': 'https://en.wikipedia.org/wiki/Dissociated_press'}
+2020-05-13 23:35:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Satoshi_Nakamoto>
+{'lastUpdated': '2020-05-13 04:40:00',
+ 'text': 'Designer and developer of bitcoinSatoshi NakamotoBorn (1975-04-05) 5 '
+         'April 1975 (age\xa045) (claimed)Japan (claimed)NationalityJapanese '
+         '(claimed)Known\xa0forInventing bitcoin, implementing the first '
+         'blockchain, deploying the first decentralized digital '
+         'currencyScientific careerFieldsDigital currencies, computer science, '
+         'cryptographySatoshi Nakamoto is the name used by the presumed '
+         'pseudonymous[1][2][3][4] person or persons who developed bitcoin, '
+         "authored the bitcoin white paper, and created and deployed bitcoin's "
+         'original reference implementation.[5]',
+ 'title': 'Satoshi Nakamoto',
+ 'url': 'https://en.wikipedia.org/wiki/Satoshi_Nakamoto'}
+2020-05-13 23:35:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Eric_S._Raymond>
+{'lastUpdated': '2020-03-11 09:10:00',
+ 'text': 'American computer programmer, author, and advocate for the open '
+         'source movement"Eric Raymond" redirects here. For other uses, see '
+         'Eric Raymond (disambiguation).This article may rely excessively on '
+         'sources too closely associated with the subject, potentially '
+         'preventing the article from being verifiable and neutral. Please '
+         'help improve it by replacing them with more appropriate citations to '
+         'reliable, independent, third-party sources.  (July 2015) (Learn how '
+         'and when to remove this template message)Eric S. RaymondRaymond at '
+         'Linucon 2004Born (1957-12-04) December 4, 1957 (age\xa062)Boston, '
+         'MassachusettsNationalityAmericanAlma\xa0materUniversity of '
+         'Pennsylvania (dropped out)[1]OccupationSoftware developer',
+ 'title': 'Eric S. Raymond',
+ 'url': 'https://en.wikipedia.org/wiki/Eric_S._Raymond'}
+2020-05-13 23:35:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Public-key_cryptography> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Daniel_Weinreb>
+{'lastUpdated': '2020-04-06 10:36:00',
+ 'text': 'Daniel L. WeinrebBorn(1959-01-06)January 6, 1959Brooklyn, New York, '
+         'United StatesDiedSeptember 7, 2012(2012-09-07) (aged\xa0'
+         '53)Massachusetts, United StatesCitizenshipUnited '
+         'StatesEducationB.S., Massachusetts Institute of Technology '
+         '(1979)Known\xa0forEINE, Symbolics, Common Lisp, '
+         'ObjectStoreSpouse(s)Cheryl Moreau (m.\xa01986)ChildrenAdam '
+         'WeinrebScientific careerFieldsComputer science, '
+         'programmingInstitutionsLLNLSymbolicsObject Design, IncorporatedBEA '
+         'SystemsITA SoftwareThesisA Real-Time Display-oriented Editor for the '
+         'LISP Machine',
+ 'title': 'Daniel Weinreb',
+ 'url': 'https://en.wikipedia.org/wiki/Daniel_Weinreb'}
+2020-05-13 23:35:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Ethereum_Classic>
+{'lastUpdated': '2020-05-12 02:11:00',
+ 'text': 'Open source blockchain computing platformEthereum ClassicOriginal '
+         'author(s)Vitalik Buterin, Gavin WoodDeveloper(s)Open-Source Software '
+         'DevelopmentInitial release30\xa0July 2015; 4 years ago\xa0'
+         '(2015-07-30)Stable releaseAgharta / 11\xa0January 2020; 4 months '
+         'ago\xa0(2020-01-11)Software usedEVM 61 BytecodeWritten inC++, Go, '
+         'Python, Rust, ScalaOperating systemCross-platformPlatformx86-64, '
+         'ARMLicenseOpen-Source LicensesActive users446,765Total '
+         'users1,655,049Active hosts793Websiteethereumclassic',
+ 'title': 'Ethereum Classic',
+ 'url': 'https://en.wikipedia.org/wiki/Ethereum_Classic'}
+2020-05-13 23:35:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/List_of_software_categories>
+{'lastUpdated': '2020-05-04 14:58:00',
+ 'text': 'Software categories are groups of software. They allow software to '
+         'be understood in terms of those categories. Instead of the '
+         'particularities of each package. Different classification schemes '
+         'consider different aspects of software.\n'
+         '.mw-parser-output .toclimit-2 .toclevel-1 ul,.mw-parser-output '
+         '.toclimit-3 .toclevel-2 ul,.mw-parser-output .toclimit-4 .toclevel-3 '
+         'ul,.mw-parser-output .toclimit-5 .toclevel-4 ul,.mw-parser-output '
+         '.toclimit-6 .toclevel-5 ul,.mw-parser-output .toclimit-7 .toclevel-6 '
+         'ul{display:none}Contents1Computer Software1.1Copyright '
+         'status1.1.1Free software1.1.2Open source software1.1.3Copylefted '
+         'software1.1.4Non-copylefted free '
+         'software1.1.5Shareware1.1.6Freeware2Microsoft TechNet and AIS '
+         'Software categories',
+ 'title': 'Software categories',
+ 'url': 'https://en.wikipedia.org/wiki/List_of_software_categories'}
+2020-05-13 23:35:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/ASIC> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Augur_(software)> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Cryptokitties> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Shard_(database_architecture)> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Accenture>
+{'lastUpdated': '2020-05-12 15:11:00',
+ 'text': 'Ireland-based multinational consulting company \n'
+         '\n'
+         'AccentureFormerlyAndersen Consulting (1\xa0January\xa02001\xa0'
+         '(2001-01-01))TypePublicTraded\xa0asNYSE:\xa0ACN (Class A)S&P 100 '
+         'componentS&P 500 componentISINIE00B4BNMY34IndustryProfessional '
+         'servicesFounded1989; 31\xa0years ago\xa0(1989)HeadquartersDublin, '
+         'IrelandArea servedWorldwideKey peopleDavid RowlandJulie Sweet '
+         '(CEO)ServicesStrategy & Consulting, Interactive, Technology and '
+         'Operations[1]RevenueUS$43.20 billion',
+ 'title': 'Accenture',
+ 'url': 'https://en.wikipedia.org/wiki/Accenture'}
+2020-05-13 23:35:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Conkeror>
+{'lastUpdated': '2020-02-17 07:49:00',
+ 'text': 'Not to be confused with Konqueror.ConkerorConkeror web browser '
+         'running on Ubuntu Linux 10.04Developer(s)Shawn Betts, John J. '
+         'Foerch, Jeremy Maitin-ShepardStable release1.0.4[1]\n'
+         '   / November\xa029, 2017; 2 years ago\xa0(2017-11-29)Written '
+         'inJavaScriptOperating systemCross-platformPlatformXULRunnerTypeWeb '
+         'browserLicenseGNU GPL, GNU LGPL and MPLWebsiteconkeror.orgConkeror '
+         'is a Mozilla-based web browser designed to be navigated primarily by '
+         'a computer keyboard. Its design is mainly patterned after the text '
+         'editor GNU Emacs, with some influence from other programs, including '
+         'vi.[2]It was originally written by ',
+ 'title': 'Conkeror',
+ 'url': 'https://en.wikipedia.org/wiki/Conkeror'}
+2020-05-13 23:35:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/SHA-3>
+{'lastUpdated': '2020-03-25 22:26:00',
+ 'text': 'set of cryptographic hash functions\n'
+         '\n'
+         'Secure Hash AlgorithmsConceptshash functions\xa0·SHA\xa0·DSAMain '
+         'standardsSHA-0\xa0·SHA-1\xa0·SHA-2\xa0'
+         '·SHA-3vteSHA-3(Keccak)GeneralDesignersGuido Bertoni, Joan Daemen, '
+         'Michaël Peeters, and Gilles Van Assche.First '
+         'published2015Series(SHA-0), SHA-1',
+ 'title': 'SHA-3',
+ 'url': 'https://en.wikipedia.org/wiki/SHA-3'}
+2020-05-13 23:35:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Distributed_computing>
+{'lastUpdated': '2020-05-12 16:08:00',
+ 'text': 'System whose components are located on different networked '
+         'computers"Distributed application" redirects here. For trustless '
+         'applications, see Decentralized application."Distributed Information '
+         'Processing" redirects here. For the computer company, see DIP '
+         'Research.Distributed computing is a field of computer science that '
+         'studies distributed systems. A distributed system is a system whose '
+         'components are located on different networked computers, which '
+         'communicate and coordinate their actions by passing messages to one '
+         'another.[1] The components interact with one another in order to '
+         'achieve a common goal. Three significant characteristics of '
+         'distributed systems are: concurrency of components, lack of a global '
+         'clock, and independent failure of components.[1] Examples of '
+         'distributed systems vary from SOA-based systems to massively '
+         'multiplayer online games to peer-to-peer applications.\n'
+         'A computer program that runs within a distributed system is called  '
+         'a distributed program (and distributed programming is the process of '
+         'writing such programs).[2] There are many different types of '
+         'implementations for the message passing mechanism, including pure '
+         'HTTP, RPC-like connectors and message queues.[3]Distributed '
+         'computing also refers to the use of distributed systems to solve '
+         'computational problems. In distributed computing, a problem is '
+         'divided into many tasks, each of which is solved by one or more '
+         'computers,[4]',
+ 'title': 'Distributed computing',
+ 'url': 'https://en.wikipedia.org/wiki/Distributed_computing'}
+2020-05-13 23:35:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Brokers> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Mining_(cryptocurrency)> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Public-key_cryptography>
+{'lastUpdated': '2020-05-12 16:30:00',
+ 'text': 'This article needs additional citations for verification. Please '
+         'help improve this article by adding citations to reliable sources. '
+         'Unsourced material may be challenged and removed.Find sources:\xa0'
+         '"Public-key cryptography"\xa0–\xa0news\xa0·newspapers\xa0·books\xa0'
+         '·scholar\xa0·JSTOR  (July 2018) (Learn how and when to remove this '
+         'template message)  An unpredictable (typically large and random) '
+         'number is used to begin generation of an acceptable pair of keys '
+         'suitable for use by an asymmetric key algorithm.  In an asymmetric '
+         'key encryption scheme, anyone can encrypt messages using the public '
+         'key, but only the holder of the paired private key can decrypt. '
+         'Security depends on the secrecy of the private key.',
+ 'title': 'Public-key cryptography',
+ 'url': 'https://en.wikipedia.org/wiki/Public-key_cryptography'}
+2020-05-13 23:35:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Cryptocurrency_exchanges> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Bloomberg_News> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/University_of_Cagliari> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Ponzi_scheme> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Bloomberg_L.P.> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/ASIC>
+{'lastUpdated': '2020-05-07 08:45:00',
+ 'text': 'Integrated circuit customized (typically optimized) for a specific '
+         'task\n'
+         '\n'
+         '"ASIC" redirects here. For other uses, see ASIC '
+         '(disambiguation).This article includes a list of references, but its '
+         'sources remain unclear because it has insufficient inline citations. '
+         'Please help to improve this article by introducing more precise '
+         'citations.  (October 2015) (Learn how and when to remove this '
+         'template message)  A tray of application-specific integrated circuit '
+         '(ASIC) chipsAn application-specific integrated circuit '
+         '(ASIC/ˈeɪsɪk/) is an integrated circuit (IC) chip customized for a '
+         'particular use, rather than intended for general-purpose use. For '
+         'example, a chip designed to run in a digital voice recorder or a '
+         'high-efficiency bitcoin miner is an ASIC. Application-specific '
+         'standard product',
+ 'title': 'Application-specific integrated circuit',
+ 'url': 'https://en.wikipedia.org/wiki/ASIC'}
+2020-05-13 23:35:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Augur_(software)>
+{'lastUpdated': '2020-01-23 15:33:00',
+ 'text': 'AugurDeveloper(s)Forecast Foundation '
+         'OÜRepositoryhttps://github.com/AugurProject/augurWritten inSolidity '
+         'and JavaScriptPlatformEthereumAvailable inEnglishTypePrediction '
+         'Market PlatformLicenseFree software (GPL)Websitewww.augur.netAugur '
+         'is a decentralizedprediction market platform built on the '
+         'Ethereumblockchain and the first decentralized application running '
+         'on Ethereum to make headlines.[1] Augur is developed by Forecast '
+         'Foundation, which was founded in 2014 by Jack Peterson and Joey '
+         'Krug. Forecast Foundation is advised by Ron Bernstein, founder of '
+         'now-defunct company Intrade, and Ethereum founder Vitalik '
+         'Buterin.[2]Contents',
+ 'title': 'Augur (software)',
+ 'url': 'https://en.wikipedia.org/wiki/Augur_(software)'}
+2020-05-13 23:35:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Shard_(database_architecture)>
+{'lastUpdated': '2020-05-03 22:41:00',
+ 'text': 'Horizontal partition of data in a database or search engineA '
+         'database shard is a horizontal partition of data in a database or '
+         'search engine. Each individual partition is referred to as a shard '
+         'or database shard. Each shard is held on a separate database server '
+         'instance, to spread load.\n'
+         'Some data within a database remains present in all shards,[notes 1] '
+         'but some appears only in a single shard. Each shard (or server) acts '
+         'as the single source for this subset of data.[1]Contents1Database '
+         'architecture2Shards compared to horizontal partitioning3Notable '
+         'implementations4Disadvantages5Etymology6',
+ 'title': 'Shard (database architecture)',
+ 'url': 'https://en.wikipedia.org/wiki/Shard_(database_architecture)'}
+2020-05-13 23:35:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Cryptokitties>
+{'lastUpdated': '2020-03-09 06:47:00',
+ 'text': 'CryptoKittiesDeveloper(s)Axiom ZenRelease2017Genre(s)Virtual '
+         'petCryptoKitties is a blockchain game on Ethereum developed by Axiom '
+         'Zen that allows players to purchase, collect, breed and sell virtual '
+         'cats.[1][2] It is one of the earliest attempts to deploy blockchain '
+         "technology for recreation and leisure.[3] The game's popularity in "
+         'December 2017 congested the Ethereum network, causing it to reach an '
+         'all-time high in number of transactions and slowing it down '
+         'significantly.[4]Contents1Background2Technology3Reception4References5External '
+         'links\n'
+         '\n'
+         'Background[edit',
+ 'title': None,
+ 'url': 'https://en.wikipedia.org/wiki/Cryptokitties'}
+2020-05-13 23:35:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Visa_Inc.> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Brokers>
+{'lastUpdated': '2020-03-28 00:24:00',
+ 'text': 'For other uses, see Broker (disambiguation)."Brokerage" redirects '
+         'here. For the not-for-profit organization "the Brokerage", see The '
+         'Brokerage Citylink.A broker is a person or firm who arranges '
+         'transactions between a buyer and a seller for a commission when the '
+         'deal is executed. A broker who also acts as a seller or as a buyer '
+         'becomes a principal party to the deal. Neither role should be '
+         'confused with that of an agent—one who acts on behalf of a principal '
+         'party in a deal.[1]Contents1Definition2Etymology3Types of '
+         'brokers4References5External links\n'
+         '\n'
+         'Definition',
+ 'title': 'Broker',
+ 'url': 'https://en.wikipedia.org/wiki/Brokers'}
+2020-05-13 23:35:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Mining_(cryptocurrency)>
+{'lastUpdated': '2020-05-06 11:21:00',
+ 'text': '  Various cryptocurrency logos.digital medium of exchange\n'
+         'A cryptocurrency (or crypto currency) is a digital asset designed to '
+         'work as a medium of exchange wherein individual coin ownership '
+         'records are stored in a digital ledger or computerized database '
+         'using strong cryptography to secure transaction record entries, to '
+         'control the creation of additional digital coin records, and to '
+         'verify the transfer of coin ownership.[1][2] It typically does not '
+         'exist in physical form (like paper money) and is typically not '
+         'issued by a central authority. Some cryptocurrencies use '
+         'decentralized control as opposed to centralized digital currency and '
+         'central banking systems.[3] When a cryptocurrency is minted or '
+         'created prior to issuance or held on a centralized exchange, it is '
+         'generally considered centralized.[4] When implemented with '
+         'decentralized control, each cryptocurrency works through distributed '
+         'ledger technology, typically a blockchain, that serves as a public '
+         'financial transaction database.[5]Bitcoin, first released as '
+         'open-source software in 2009, is the first decentralized '
+         'cryptocurrency.[6] Since the release of bitcoin, over 6,000 altcoins '
+         '(alternative variants of bitcoin, or other cryptocurrencies) have '
+         'been created.\n'
+         'Contents1',
+ 'title': 'Cryptocurrency',
+ 'url': 'https://en.wikipedia.org/wiki/Mining_(cryptocurrency)'}
+2020-05-13 23:35:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Harvard_Business_Review> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Proof_of_authority> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Nxt> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/EOS.IO> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Gridcoin> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Cryptocurrency_exchanges>
+{'lastUpdated': '2020-03-18 21:03:00',
+ 'text': '\n'
+         '\n'
+         'This article may be confusing or unclear to readers. In particular, '
+         'since the move to cryptocurrency exchange, the article mixes two '
+         'concepts. Please help us clarify the article. There might be a '
+         'discussion about this on the talk page.  (June 2018) (Learn how and '
+         'when to remove this template message)  ETH/BTC order book depth '
+         'chart on a cryptocurrency exchange. The x-axis is the unit price, '
+         'the y-axis is cumulative order depth. Bids (buyers) on the left, '
+         'asks (sellers) on the right, with a bid-ask spread in the middle.A '
+         'cryptocurrency exchange or a digital currency exchange (DCE) is a '
+         'business that allows customers to trade cryptocurrencies or digital '
+         'currencies for other assets, such as conventional fiat money or '
+         'other digital currencies. A cryptocurrency exchange can be a market '
+         'maker that typically takes the bid-ask spreads as a transaction '
+         'commission for is service or, as a matching platform, simply charges '
+         'fees.\n'
+         'Contents1Concept1.1Decentralized exchanges',
+ 'title': 'Cryptocurrency exchange',
+ 'url': 'https://en.wikipedia.org/wiki/Cryptocurrency_exchanges'}
+2020-05-13 23:35:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Bloomberg_News>
+{'lastUpdated': '2020-05-09 00:09:00',
+ 'text': 'This article is about the Bloomberg news agency. For the current '
+         'parent company, see Bloomberg L.P.International news agency based in '
+         'New York CityBloomberg NewsFormerlyBloomberg Business News '
+         '(1990–1997)TypeDivisionIndustryNews agencyFounded1990; 30\xa0years '
+         'ago\xa0(1990)FoundersMichael BloombergMatthew WinklerHeadquarters731 '
+         'Lexington Avenue, New York City, New York, United StatesLondon, '
+         'United KingdomHong Kong, ChinaKey peopleJohn '
+         'Micklethwait(Editor-in-chief)Number of employees2,300ParentBloomberg '
+         'L.P.Websitewww.bloomberg.com',
+ 'title': 'Bloomberg News',
+ 'url': 'https://en.wikipedia.org/wiki/Bloomberg_News'}
+2020-05-13 23:35:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/University_of_Cagliari>
+{'lastUpdated': '2020-03-30 00:58:00',
+ 'text': 'Italian universityUniversity of CagliariUniversità degli Studi di '
+         'CagliariCoat of armsLatin: Universitas Studiorum '
+         'CaralitanaTypeState-supportedEstablished1606RectorMaria Del '
+         'ZompoAdministrative staffteaching: 1,200, technical-administrative: '
+         '1,300Students31102[1]LocationCagliariMonserratoIglesiasNuoroOristano, '
+         'Italy39°13′01″N9°06′54″E\ufeff / \ufeff39.217°N 9.115°E\ufeff / '
+         '39.217; 9.115Coordinates: 39°13′01″N9°06′54″E\ufeff / \ufeff39.217°N '
+         '9.115°E\ufeff / 39.217; 9.115CampusCagliari (main location): Urban',
+ 'title': 'University of Cagliari',
+ 'url': 'https://en.wikipedia.org/wiki/University_of_Cagliari'}
+2020-05-13 23:35:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Ponzi_scheme>
+{'lastUpdated': '2020-05-08 07:29:00',
+ 'text': 'For schemes where people are told that it is based on enrolling ever '
+         'larger numbers of people, see Pyramid scheme.Type of financial '
+         'fraud  1920 photo of Charles Ponzi, the namesake of the scheme, '
+         'while still working as a businessman in his office in BostonA Ponzi '
+         'scheme (/ˈpɒnzi/, Italian:\xa0[ˈpontsi]; also a Ponzi game)[1] is a '
+         'form of fraud that lures investors and pays profits to earlier '
+         'investors with funds from more recent investors.[2] The scheme leads '
+         'victims to believe that profits are coming from product sales or '
+         'other means, and they remain unaware that other investors are the '
+         'source of funds. A Ponzi scheme can maintain the illusion of a '
+         'sustainable business as long as new investors contribute new funds, '
+         'and as long as most of the investors do not demand full repayment '
+         'and still believe in the non-existent assets they are purported to '
+         'own.\n'
+         'Among the first recorded incidents to meet the modern definition of '
+         'Ponzi scheme were carried out from 1869 to 1872 by Adele Spitzeder '
+         'in Germany and by Sarah Howe in the United States in the 1880s '
+         'through the "Ladies\' Deposit". Howe offered a solely female '
+         'clientele an eight-percent monthly interest rate',
+ 'title': 'Ponzi scheme',
+ 'url': 'https://en.wikipedia.org/wiki/Ponzi_scheme'}
+2020-05-13 23:35:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Bloomberg_L.P.>
+{'lastUpdated': '2020-04-24 03:31:00',
+ 'text': 'Financial, software, data, and media company based in New York '
+         'CityBloomberg L.P.Bloomberg Tower on Lexington Avenue in Midtown '
+         'ManhattanTypePrivate, limited partnershipIndustryTechnology, mass '
+         'mediaFoundedOctober\xa01, 1981; 38 years ago\xa0'
+         '(1981-10-01)[1][2]FoundersMichael BloombergThomas SecundaDuncan '
+         'MacMillanCharles Zegar[3]HeadquartersBloomberg Tower731 Lexington '
+         'Avenue, New York City, New YorkNumber of locations167 offices '
+         '(2019)[4]Key peoplePeter Grauer (chairman)Michael '
+         'Bloomberg(co-founder & ',
+ 'title': 'Bloomberg L.P.',
+ 'url': 'https://en.wikipedia.org/wiki/Bloomberg_L.P.'}
+2020-05-13 23:35:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/New_York_Times> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Harvard_University> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Visa_Inc.>
+{'lastUpdated': '2020-03-30 09:48:00',
+ 'text': 'Multinational financial company best known for credit and debit '
+         'cards"VISA" redirects here. For the gene, see VISA (gene). For other '
+         'uses, see Visa (disambiguation).Visa Inc.Visa Inc. headquarters at '
+         'Metro Center in Foster CityTypePublicTraded\xa0asClass A: NYSE:\xa0'
+         'VDJIA componentS&P 100 componentS&P 500 componentClass B: '
+         'UnlistedClass C: UnlistedISINUS92826C8394\xa0IndustryFinancial '
+         'servicesFounded1958; 62\xa0years ago\xa0(1958) (as '
+         'BankAmericard)Fresno, California, United StatesFounderDee '
+         'HockHeadquartersFoster City,[1]California, United StatesArea '
+         'servedWorldwide',
+ 'title': 'Visa Inc.',
+ 'url': 'https://en.wikipedia.org/wiki/Visa_Inc.'}
+2020-05-13 23:35:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Virtual_currency> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Token_money> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Operating-system-level_virtualization> (referer: https://en.wikipedia.org/wiki/Red_Hat)
+2020-05-13 23:35:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Zcoin> (referer: https://en.wikipedia.org/wiki/Ethereum)
+2020-05-13 23:35:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Data_center> (referer: https://en.wikipedia.org/wiki/Red_Hat)
+2020-05-13 23:35:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/OpenStack> (referer: https://en.wikipedia.org/wiki/Red_Hat)
+2020-05-13 23:35:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Harvard_Business_Review>
+{'lastUpdated': '2020-03-19 08:05:00',
+ 'text': 'This article needs additional citations for verification. Please '
+         'help improve this article by adding citations to reliable sources. '
+         'Unsourced material may be challenged and removed.Find sources:\xa0'
+         '"Harvard Business Review"\xa0–\xa0news\xa0·newspapers\xa0·books\xa0'
+         '·scholar\xa0·JSTOR  (August 2018) (Learn how and when to remove this '
+         'template message)Harvard Business ReviewEditor-in-ChiefAdi '
+         'Ignatius[1]Former editorsThomas A. '
+         'StewartCategoriesBusinessFrequency6 times per yearCirculation263,645',
+ 'title': None,
+ 'url': 'https://en.wikipedia.org/wiki/Harvard_Business_Review'}
+2020-05-13 23:35:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Proof_of_authority>
+{'lastUpdated': '2019-10-13 14:56:00',
+ 'text': 'This article has multiple issues. Please help improve it or discuss '
+         'these issues on the talk page. (Learn how and when to remove these '
+         'template messages)\n'
+         "      The topic of this article may not meet Wikipedia's general "
+         'notability guideline. Please help to establish notability by citing '
+         'reliable secondary sources that are independent of the topic and '
+         'provide significant coverage of it beyond a mere trivial mention. If '
+         'notability cannot be established, the article is likely to be '
+         'merged, redirected, or deleted.Find sources:\xa0"Proof of '
+         'authority"\xa0–\xa0news\xa0·newspapers\xa0·books\xa0·scholar\xa0'
+         '·JSTOR  (January 2019',
+ 'title': 'Proof of authority',
+ 'url': 'https://en.wikipedia.org/wiki/Proof_of_authority'}
+2020-05-13 23:35:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Nxt>
+{'lastUpdated': '2020-05-02 07:47:00',
+ 'text': 'For other uses, see NXT.NxtNxt '
+         'LogoDenominationsSubunit.mw-parser-output '
+         '.nobold{font-weight:normal}\u20021NXT\u200210−8nxtQuant(smallest '
+         'unit)PluralThe language(s) of this currency do(es) not have a '
+         'morphological plural distinction.SymbolNXTNicknameNxtcoin (also '
+         'incorrectly referred to as Nextcoin)DemographicsDate of '
+         'introduction24 November '
+         '2013User(s)GlobalIssuanceAdministrationDecentralizedpeer-to-peer '
+         'consensus.\u2002Websitenxt.orgValuationInflationDisinflationary. All '
+         'coins were distributed after IPO (28 September 2013 - 26 November '
+         '2013).Nxt is an open sourcecryptocurrency and payment network '
+         'launched in 2013 by anonymous software developer BCNext.[1]',
+ 'title': 'Nxt',
+ 'url': 'https://en.wikipedia.org/wiki/Nxt'}
+2020-05-13 23:35:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/EOS.IO>
+{'lastUpdated': '2019-11-01 07:52:00',
+ 'text': 'Blockchain protocolEOSTicker symbolEOSDevelopmentOriginal '
+         'author(s)Daniel Larimer, Brendan Blumer[3]White paper[3]Initial '
+         'releaseDawn 3.0.1-alpha[1] / January\xa031, 2018; 2 years ago\xa0'
+         '(2018-01-31)Latest releaseEOSIO 1.8.1[2] / July\xa09, 2019; 10 '
+         'months ago\xa0(2019-07-09)Code repositoryeos.io on GitHubDevelopment '
+         'statusCurrently under developmentWritten inC++Operating systemmulti '
+         'platformDeveloper(s)block.oneLicenseMIT License (open '
+         'source)[4]Websiteeos.io',
+ 'title': 'EOS.IO',
+ 'url': 'https://en.wikipedia.org/wiki/EOS.IO'}
+2020-05-13 23:35:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/Gridcoin>
+{'lastUpdated': '2020-05-10 11:28:00',
+ 'text': 'GridcoinDenominationsSubunit.mw-parser-output '
+         '.nobold{font-weight:normal}\u200210−3milligridcoinSymbolGRC\u2002'
+         'milligridcoinmGRCDemographicsDate of introduction16\xa0October 2013; '
+         '6 years ago\xa0'
+         '(2013-10-16)User(s)WorldwideIssuanceAdministrationDecentralizedGridcoin '
+         'ResearchDeveloper(s)Rob Halförd, Marco Nilsson, Paul Jensen, Tomas '
+         'Brod, James OwensStable release4.0.6.0-Leisure\n'
+         '   / October 22, 2019 '
+         '[1]Repositorygithub.com/gridcoin-community/Gridcoin-ResearchWritten '
+         'inC++PlatformWindows, Linux, macOSTypeCryptocurrencyLicence',
+ 'title': 'Gridcoin',
+ 'url': 'https://en.wikipedia.org/wiki/Gridcoin'}
+2020-05-13 23:35:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Kubernetes> (referer: https://en.wikipedia.org/wiki/Red_Hat)
+2020-05-13 23:35:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Java_Platform,_Enterprise_Edition> (referer: https://en.wikipedia.org/wiki/Red_Hat)
+2020-05-13 23:35:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://en.wikipedia.org/wiki/New_York_Times>
+{'lastUpdated': '2020-05-09 18:01:00',
+ 'text': 'Not to be confused with The Times."NYT" redirects here. For other '
+         'uses, see NYT (disambiguation).For other uses, see The New York '
+         'Times (disambiguation).Daily newspaper based in New York CityThe New '
+         'York Times"All the News That\'s Fit to Print"Cover page of November '
+         '15, 2012TypeDaily newspaperFormatBroadsheetOwner(s)The New York '
+         'Times CompanyFounder(s)Henry Jarvis RaymondGeorge JonesPublisherA. '
+         'G. SulzbergerEditor-in-chiefDean BaquetManaging editorsMonica '
+         'DrakeOpinion editorJames BennetSports editorJason Stallman[1]Photo '
+         'editorMichele McNallyStaff writers1,300 news staff '
+         '(2016)[2]FoundedSeptember\xa018, 1851; 168 years ago\xa0(',
+ 'title': None,
+ 'url': 'https://en.wikipedia.org/wiki/New_York_Times'}
+2020-05-13 23:36:18 [scrapy.utils.log] INFO: Scrapy 2.1.0 started (bot: wikiSpider)
+2020-05-13 23:36:18 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 20.3.0, Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.18362-SP0
+2020-05-13 23:36:18 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2020-05-13 23:36:18 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'wikiSpider',
+ 'LOG_FILE': 'wiki.log',
+ 'NEWSPIDER_MODULE': 'wikiSpider.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_LOADER_WARN_ONLY': True,
+ 'SPIDER_MODULES': ['wikiSpider.spiders']}
+2020-05-13 23:36:18 [scrapy.extensions.telnet] INFO: Telnet Password: 8de1486b479f9494
+2020-05-13 23:36:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-05-13 23:36:20 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-05-13 23:36:20 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-05-13 23:36:20 [scrapy.middleware] INFO: Enabled item pipelines:
+['wikiSpider.pipelines.WikispiderPipeline']
+2020-05-13 23:36:20 [scrapy.core.engine] INFO: Spider opened
+2020-05-13 23:36:20 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-13 23:36:20 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-05-13 23:36:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/robots.txt> (referer: None)
+2020-05-13 23:36:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Benevolent_dictator_for_life> (referer: None)
+2020-05-13 23:36:22 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://en.wikipedia.org/wiki/Benevolent_dictator_for_life#p-search> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.artima.com': <GET http://www.artima.com/weblogs/viewpost.jsp?thread=235725>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'archive.today': <GET https://archive.today/20120721081049/http://www.artima.com/weblogs/viewpost.jsp?thread=235725>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.eweek.com': <GET http://www.eweek.com/c/a/Application-Development/Python-Creator-Scripts-Inside-Google/>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'mail.python.org': <GET https://mail.python.org/pipermail/python-committers/2018-July/005664.html>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'catb.org': <GET http://catb.org/~esr/writings/homesteading/homesteading/ar01s16.html>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'github.com': <GET https://github.com/syl20bnr/spacemacs/blob/master/COMMUNITY.org#maintainer>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'motherboard.vice.com': <GET https://motherboard.vice.com/en_us/article/jpzd58/ethereums-boy-king-is-thinking-about-giving-up-the-mantle>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'randyfay.com': <GET http://randyfay.com/content/how-do-open-source-communities-govern-themselves>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'web.archive.org': <GET https://web.archive.org/web/20181116081508/https://frontsidethepodcast.simplecast.fm/56>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'frontsidethepodcast.simplecast.fm': <GET https://frontsidethepodcast.simplecast.fm/56>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.youtube.com': <GET https://www.youtube.com/watch?v=DSjbTC-hvqQ&list=PLglJM3BYAMPH2zuz1nbKHQyeawE4SN0Cd>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'techcrunch.com': <GET https://techcrunch.com/2012/12/07/dropbox-guido-van-rossum-python/>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'dev.clojure.org': <GET http://dev.clojure.org/display/community/JIRA+workflow>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.holovaty.com': <GET http://www.holovaty.com/writing/bdfls-retiring>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'wiki.dolibarr.org': <GET https://wiki.dolibarr.org/index.php/Dolibarr_Project#Developer_grade_Yoda_.28GIT_project_and_commit_leader.2C_head_release_manager.29>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'ocaml.org': <GET http://ocaml.org/learn/history.html>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'lists.ocaml.org': <GET http://lists.ocaml.org/pipermail/infrastructure/2015-September/000535.html>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'bugs.ruby-lang.org': <GET https://bugs.ruby-lang.org/issues/7549>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'pandas.pydata.org': <GET http://pandas.pydata.org/pandas-docs/stable/tutorials.html>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'geoff.greer.fm': <GET http://geoff.greer.fm/2015/01/15/why-neovim-is-better-than-vim>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'poststatus.com': <GET https://poststatus.com/thesis-automattic-and-wordpress/>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'twitter.com': <GET https://twitter.com/taylorotwell/status/520294534060601344>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.facebook.com': <GET https://www.facebook.com/events/731585693566905/>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.theepochtimes.com': <GET http://www.theepochtimes.com/news/5-7-5/30084.html>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'wiki.blender.org': <GET https://wiki.blender.org/wiki/Developer_Intro/Overview#Decisions>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'orchardproject.net': <GET http://orchardproject.net/about>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'news.cnet.com': <GET http://news.cnet.com/Ubuntu+carves+niche+in+Linux+landscape/2100-7344_3-5886194.html>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'fsharp.github.io': <GET https://fsharp.github.io/2014/06/18/fsharp-contributions.html>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'books.google.com': <GET https://books.google.com/books?id=dy1FxtIsGhIC&pg=PA15>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.linux.com': <GET http://www.linux.com/component/content/article/197-stories-of-linux/441699-the-story-of-linux-a-look-at-slackware-linux>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.liquibase.org': <GET http://www.liquibase.org/community/>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.hcs.harvard.edu': <GET http://www.hcs.harvard.edu/node/154>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'gitlab.redox-os.org': <GET https://gitlab.redox-os.org/jackpot51>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'atseda.com': <GET https://atseda.com/en/blog/2019/02/12/mathematica-and-python/>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.dailydot.com': <GET https://www.dailydot.com/debug/mastodon-fediverse-eugen-rochko/>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'k1ss.org': <GET https://k1ss.org/team>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'terminusdb.com': <GET https://terminusdb.com/blog/2019/08/21/terminusdb-whats-in-a-name/>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'donate.wikimedia.org': <GET https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'shop.wikimedia.org': <GET https://shop.wikimedia.org>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.wikidata.org': <GET https://www.wikidata.org/wiki/Special:EntityPage/Q11271>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'creativecommons.org': <GET https://creativecommons.org/licenses/by-sa/3.0/>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'foundation.wikimedia.org': <GET https://foundation.wikimedia.org/wiki/Terms_of_Use>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.wikimediafoundation.org': <GET https://www.wikimediafoundation.org/>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.mediawiki.org': <GET https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'stats.wikimedia.org': <GET https://stats.wikimedia.org/#/en.wikipedia.org>
+2020-05-13 23:36:22 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'wikimediafoundation.org': <GET https://wikimediafoundation.org/>
+2020-05-13 23:36:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Guido_van_Rossum> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/OCaml> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Benevolent_dictator_for_life#mw-head> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Benevolent_dictatorship> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Open-source_software_development> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Yukihiro_Matsumoto> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:23 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'gvanrossum.github.io': <GET https://gvanrossum.github.io/>
+2020-05-13 23:36:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Keras> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Django_(web_framework)> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Ruby_(programming_language)> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Adrian_Holovaty> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Customer_Relationship_Management> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Enterprise_Resource_Planning> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:23 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'ffkp.se': <GET https://ffkp.se/2012/04/15/old-interview-guido-van-rossum/>
+2020-05-13 23:36:23 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.schoolbank.nl': <GET http://www.schoolbank.nl/klasgenoot/guido-van-rossum/2990563095>
+2020-05-13 23:36:23 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'wiki.codecall.net': <GET http://wiki.codecall.net/Guido_van_Rossum>
+2020-05-13 23:36:23 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.linuxformat.co.uk': <GET http://www.linuxformat.co.uk/modules.php?op=modload&name=Sections&file=index&req=viewarticle&artid=10>
+2020-05-13 23:36:23 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.mail-archive.com': <GET https://www.mail-archive.com/python-committers@python.org/msg05628.html>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'en.wikibooks.org': <GET https://en.wikibooks.org/wiki/Objective_Caml>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'discuss.python.org': <GET https://discuss.python.org/t/steering-council-nomination-guido-van-rossum-2020-term/2657/9>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'medium.com': <GET https://medium.com/type-thursday/learning-python-makes-you-a-better-designer-an-interview-with-just-van-rossum-8d4758c192d8/>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.python.org': <GET https://www.python.org/~guido/bio.html>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.isc.org': <GET http://www.isc.org/sources/devel/func/glob.txt>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'metacpan.org': <GET https://metacpan.org/module/File::Glob>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to '1997.webhistory.org': <GET http://1997.webhistory.org/www.lists/www-talk.1993q1/0184.html>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.computerhistory.org': <GET http://www.computerhistory.org/atchm/2018-chm-fellow-guido-van-rossum-python-creator-benevolent-dictator-for-life/>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.linuxjournal.com': <GET https://www.linuxjournal.com/content/guido-van-rossum-stepping-down-role-pythons-benevolent-dictator-life>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'octoverse.github.com': <GET https://octoverse.github.com/projects.html>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'langpop.com': <GET http://langpop.com/>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.tiobe.com': <GET http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.webcitation.org': <GET https://www.webcitation.org/67yaiO5Kb?url=http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'developers.google.com': <GET https://developers.google.com/appengine/articles/rietveld>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'cloud.google.com': <GET https://cloud.google.com/appengine/articles/rietveld>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'tech.dropbox.com': <GET https://tech.dropbox.com/2012/12/welcome-guido/>
+2020-05-13 23:36:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Dolibarr> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Rich_Hickey> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Berkeley_Software_Distribution> (referer: https://en.wikipedia.org/wiki/Guido_van_Rossum)
+2020-05-13 23:36:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Clojure> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.m.wikipedia.org/robots.txt> (referer: None)
+2020-05-13 23:36:24 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://en.m.wikipedia.org/w/index.php?title=Benevolent_dictator_for_life&mobileaction=toggle_view_mobile>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'functory.lri.fr': <GET http://functory.lri.fr/About.html>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'projects.camlcity.org': <GET http://projects.camlcity.org/projects/ocamlnet.html>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'opam.ocaml.org': <GET http://opam.ocaml.org/>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.ocamlpro.com': <GET https://www.ocamlpro.com/>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'discuss.ocaml.org': <GET https://discuss.ocaml.org/>
+2020-05-13 23:36:24 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'bucklescript.github.io': <GET https://bucklescript.github.io/>
+2020-05-13 23:36:25 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://en.wikipedia.org/w/index.php?title=OCaml&action=edit&section=3>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.nluug.nl': <GET https://www.nluug.nl/vereniging/persberichten/009.html>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.cwi.nl': <GET https://www.cwi.nl/news/2019/david-chaum-and-guido-van-rossum-awarded-dijkstra-fellowship>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'commons.wikimedia.org': <GET https://commons.wikimedia.org/wiki/Category:Guido_van_Rossum>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'python-history.blogspot.com': <GET http://python-history.blogspot.com/>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.twit.tv': <GET http://www.twit.tv/floss11>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'workspiration.org': <GET http://workspiration.org/guido-van-rossum>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.stanford.edu': <GET http://www.stanford.edu/class/ee380/Abstracts/081105.html>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'dl.acm.org': <GET https://dl.acm.org/profile/81341495956>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'ci.nii.ac.jp': <GET https://ci.nii.ac.jp/author/DA10288481?l=en>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'dblp.org': <GET https://dblp.org/pid/r/GvRossum>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'd-nb.info': <GET https://d-nb.info/gnd/1067604243>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'isni.org': <GET http://isni.org/isni/0000000035393853>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'id.loc.gov': <GET https://id.loc.gov/authorities/names/n96080557>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'data.bibliotheken.nl': <GET http://data.bibliotheken.nl/id/thes/p073634204>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'viaf.org': <GET https://viaf.org/viaf/28799390>
+2020-05-13 23:36:25 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.worldcat.org': <GET https://www.worldcat.org/identities/lccn-n96080557>
+2020-05-13 23:36:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Caml> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:26 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.google.com': <GET https://www.google.com/search?as_eq=wikipedia&q=%22Open-source+software+development%22>
+2020-05-13 23:36:26 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'scholar.google.com': <GET https://scholar.google.com/scholar?q=%22Open-source+software+development%22>
+2020-05-13 23:36:26 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.jstor.org': <GET https://www.jstor.org/action/doBasicSearch?Query=%22Open-source+software+development%22&acc=on&wc=on>
+2020-05-13 23:36:26 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'keras.io': <GET https://keras.io/>
+2020-05-13 23:36:26 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.ruby-lang.org': <GET https://www.ruby-lang.org/>
+2020-05-13 23:36:26 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.djangoproject.com': <GET https://www.djangoproject.com/>
+2020-05-13 23:36:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Filename_extension> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Xavier_Leroy> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Software_license> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Ocsigen> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:26 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.everyblock.com': <GET http://www.everyblock.com/>
+2020-05-13 23:36:26 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'vasily.jp': <GET http://vasily.jp/category/press/>
+2020-05-13 23:36:26 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.japaninc.com': <GET http://www.japaninc.com/article.php?articleID=828>
+2020-05-13 23:36:26 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.oreilly.com': <GET http://www.oreilly.com/pub/au/714>
+2020-05-13 23:36:27 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'wiki.erights.org': <GET http://wiki.erights.org/wiki/Emily>
+2020-05-13 23:36:27 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'ocaml.xyz': <GET https://ocaml.xyz/>
+2020-05-13 23:36:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Microsoft_Windows> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Java_virtual_machine> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Discourse_(software)> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'docs.djangoproject.com': <GET https://docs.djangoproject.com/en/dev/internals/committers/#internals-committers>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.soundslice.com': <GET http://www.soundslice.com/about/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.nytimes.com': <GET https://www.nytimes.com/2005/12/11/magazine/11ideas1-13.html?_r=1>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'googleblog.blogspot.com': <GET https://googleblog.blogspot.com/2005/06/world-is-your-javascript-enabled_29.html>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.destailleur.fr': <GET https://www.destailleur.fr/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'sourceforge.net': <GET https://sourceforge.net/projects/dolibarr/files/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.dolibarr.org': <GET https://www.dolibarr.org/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.ibm.com': <GET http://www.ibm.com/developerworks/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'clojure.org': <GET https://clojure.org>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'eigenclass.org': <GET http://eigenclass.org/hiki/ruby+0.95>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'blade.nagaokaut.ac.jp': <GET http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/382>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'matt.aimonetti.net': <GET http://matt.aimonetti.net/posts/2012/04/20/mruby-and-mobiruby/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.treasuredata.com': <GET http://www.treasuredata.com/company>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.fsf.org': <GET http://www.fsf.org/news/2011-free-software-awards-announced>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.mormon.org': <GET http://www.mormon.org/matz>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'cs.byu.edu': <GET https://cs.byu.edu/article/colloquium-yukihiro-matsumoto>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'en.wikiquote.org': <GET https://en.wikiquote.org/wiki/Special:Search/Yukihiro_Matsumoto>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.rubyist.net': <GET http://www.rubyist.net/~matz/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'translate.google.com': <GET https://translate.google.com/translate?u=http%3A%2F%2Fwww.rubyist.net%2F%7Ematz%2F&langpair=ja%7Cen&hl=en&ie=UTF-8&oe=UTF-8&prev=%2Flanguage_tools>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.itconversations.com': <GET http://www.itconversations.com/shows/detail1638.html>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.informit.com': <GET http://www.informit.com/articles/article.aspx?p=18225>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'dorai.wordpress.com': <GET http://dorai.wordpress.com/2007/08/08/treating-code-as-essay/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'evrone.com': <GET https://evrone.com/yukihiro-matsumoto-interview>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'keras.rstudio.com': <GET https://keras.rstudio.com/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'arxiv.org': <GET https://arxiv.org/abs/1610.02357>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.tensorflow.org': <GET https://www.tensorflow.org/api_docs/python/tf/keras>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'docs.microsoft.com': <GET https://docs.microsoft.com/en-us/cognitive-toolkit/ReleaseNotes/CNTK_2_0_Release_Notes>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.kdnuggets.com': <GET https://www.kdnuggets.com/2018/05/poll-tools-analytics-data-science-machine-learning-results.html/2>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.lexifi.com': <GET https://www.lexifi.com/apropos/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'lwn.net': <GET https://lwn.net/Articles/19378/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'en.wiktionary.org': <GET https://en.wiktionary.org/wiki/licensor>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.chicagomag.com': <GET http://www.chicagomag.com/Chicago-Magazine/June-2009/Street-Wise/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.niemanlab.org': <GET http://www.niemanlab.org/encyclo/everyblock>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.nbcnews.com': <GET https://www.nbcnews.com/id/32443365>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.cnn.com': <GET http://www.cnn.com/2013/02/07/tech/innovation/everyblock-closed/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'corporate.comcast.com': <GET https://corporate.comcast.com/comcast-voices/everyblock-the-online-community-for-your-neighborhood>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.indiawest.com': <GET https://www.indiawest.com/news/business/nirav-tolia-led-nextdoor-acquires-chicago-s-everyblock-neighborhood-news/article_93e18fd2-974c-11e8-8ac2-a71f9d746063.html>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'caml.inria.fr': <GET http://caml.inria.fr>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.wired.co.uk': <GET https://www.wired.co.uk/magazine/archive/2014/03/web-at-25/tim-berners-lee>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.catb.org': <GET http://www.catb.org/~esr/writings/cathedral-bazaar/>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'catalogue.bnf.fr': <GET https://catalogue.bnf.fr/ark:/12148/cb14410671s>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'data.bnf.fr': <GET https://data.bnf.fr/ark:/12148/cb14410671s>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'meta.wikimedia.org': <GET https://meta.wikimedia.org/wiki/Meta:General_disclaimer>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'species.wikimedia.org': <GET https://species.wikimedia.org/wiki/Wikispecies:General_disclaimer>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'en.wikinews.org': <GET https://en.wikinews.org/wiki/Wikinews:General_disclaimer>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'en.wikisource.org': <GET https://en.wikisource.org/wiki/Wikisource:General_disclaimer>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'en.wikiversity.org': <GET https://en.wikiversity.org/wiki/Wikiversity:General_disclaimer>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'en.wikivoyage.org': <GET https://en.wikivoyage.org/wiki/Wikivoyage:Disclaimer>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'mirror.ocamlcore.org': <GET http://mirror.ocamlcore.org/caml.inria.fr/pub/ml-archives/caml-list/2002/11/64c14acb90cb14bedb2cacb73338fb15.en.html>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'okmij.org': <GET http://okmij.org/ftp/ML/MetaOCaml.html>
+2020-05-13 23:36:28 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'reasonml.github.io': <GET https://reasonml.github.io/blog/2017/09/08/messenger-50-reason.html>
+2020-05-13 23:36:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Symmetric_multiprocessing> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://zh.wikipedia.org/robots.txt> (referer: None)
+2020-05-13 23:36:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Thread_(computer_science)> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Programming_language_implementation> (referer: https://en.wikipedia.org/wiki/Ruby_(programming_language))
+2020-05-13 23:36:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Code_generation_(compiler)> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'ocsigen.org': <GET http://ocsigen.org/lwt/manual/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'code.facebook.com': <GET https://code.facebook.com/posts/264544830379293/hack-a-new-programming-language-for-hhvm/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.ocsigen.org': <GET http://www.ocsigen.org/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.irif.fr': <GET http://www.irif.fr/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.acm.org': <GET https://www.acm.org/media-center/2015/december/fellows-2015>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'royalsociety.org': <GET https://royalsociety.org/grants-schemes-awards/awards/milner-award/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'xavierleroy.org': <GET https://xavierleroy.org/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.genealogy.math.ndsu.nodak.edu': <GET https://www.genealogy.math.ndsu.nodak.edu/id.php?id=137170>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.newyorker.com': <GET https://www.newyorker.com/news/news-desk/will-oman-survive-sultan>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'turkeyfile.blogspot.com': <GET http://turkeyfile.blogspot.com/2009/10/benevolent-dictator.html>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.washingtonpost.com': <GET https://www.washingtonpost.com/opinions/what-singapore-can-teach-us/2012/05/02/gIQAlQEGwT_story.html>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.standardmedia.co.ke': <GET https://www.standardmedia.co.ke/article/2001269743/why-uhuru-should-be-a-benevolent-dictator-to-protect-his-legacy>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'portalimprensa.uol.com.br': <GET http://portalimprensa.uol.com.br/colunistas/colunas/2009/02/25/imprensa374.shtml>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'doi.org': <GET https://doi.org/10.2307%2F2938736>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.sloveniatimes.com': <GET http://www.sloveniatimes.com/naming-street-after-tito-unconstitutional>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.framasoft.net': <GET http://www.framasoft.net/article4772.html>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.awstats.org': <GET http://www.awstats.org/docs/awstats_what.html>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.journal-officiel.gouv.fr': <GET http://www.journal-officiel.gouv.fr/association/index.php?ACTION=Rechercher&HI_PAGE=1&HI_COMPTEUR=0&original_method=get&WHAT=DOLIBARR&JTH_ID=&JAN_BD_CP=&JRE_ID=&JAN_LIEU_DECL=&JTY_ID=&JTY_WALDEC=&JPA_D_D=&JPA_D_F=&rechercher.x=0&rechercher.y=0&rechercher=Rechercher>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.fcvnet.net': <GET http://www.fcvnet.net/~cma80.fr/packCreateur/actualites.html>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.transifex.com': <GET https://www.transifex.com/dolibarr-association/dolibarr/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'demo.dolibarr.org': <GET https://demo.dolibarr.org/public/demo/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.dolistore.com': <GET https://www.dolistore.com/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.openhub.net': <GET https://www.openhub.net/p/iddolibarr>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'id.ndl.go.jp': <GET https://id.ndl.go.jp/auth/ndlna/00820729>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'aleph.nkp.cz': <GET https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=mub2011665580&CON_LNG=ENG>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'nl.go.kr': <GET https://nl.go.kr/authorities/resource/KAC200801976>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.idref.fr': <GET https://www.idref.fr/06162022X>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'flow.org': <GET https://flow.org/en/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'fbinfer.com': <GET https://fbinfer.com/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.techatbloomberg.com': <GET https://www.techatbloomberg.com/blog/bucklescript-1-0-release-arrived/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'cacm.acm.org': <GET http://cacm.acm.org/magazines/2011/11/138203-ocaml-for-the-masses/fulltext>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'realworldocaml.org': <GET https://realworldocaml.org>
+2020-05-13 23:36:30 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://en.wikipedia.org/w/index.php?title=Berkeley_Software_Distribution&action=edit&section=5>
+2020-05-13 23:36:30 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://en.wikipedia.org/w/index.php?title=Berkeley_Software_Distribution&action=edit&section=4>
+2020-05-13 23:36:30 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://en.wikipedia.org/w/index.php?title=Berkeley_Software_Distribution&action=edit&section=3>
+2020-05-13 23:36:30 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://en.wikipedia.org/w/index.php?title=Berkeley_Software_Distribution&action=edit&section=2>
+2020-05-13 23:36:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/ARM64> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Objective-C> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/C%2B%2B> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.gnu.org': <GET https://www.gnu.org/copyleft/lesser.html>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'pauillac.inria.fr': <GET http://pauillac.inria.fr/cousineau-mauny/main.html>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'dx.doi.org': <GET https://dx.doi.org/10.1145/800055.802037>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'skelmir.com': <GET https://skelmir.com>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.discourse.org': <GET https://www.discourse.org>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.law.cornell.edu': <GET https://www.law.cornell.edu/uscode/text/17/117>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'genealogy.math.ndsu.nodak.edu': <GET https://genealogy.math.ndsu.nodak.edu/id.php?id=137170>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.country-data.com': <GET http://www.country-data.com/cgi-bin/query/r-14787.html>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'thepolicywire.com': <GET http://thepolicywire.com/lee-kuan-yew-the-curious-legacies-of-benevolent-dictators/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.columbia.edu': <GET http://www.columbia.edu/~sss31/Turkiye/ata/hayati.html>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.themalaymailonline.com': <GET http://www.themalaymailonline.com/malaysia/article/obituary-lee-kuan-yew-the-benevolent-dictator>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.theguardian.com': <GET https://www.theguardian.com/world/2015/mar/23/lee-kuan-yews-legacy-of-authoritarian-pragmatism-will-serve-singapore-well>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.independent.co.uk': <GET https://www.independent.co.uk/voices/comment/lee-kuan-yew-an-entirely-exceptional-leader-who-balanced-authoritarianism-with-pragmatism-10128277.html>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.theglobeandmail.com': <GET https://www.theglobeandmail.com/news/world/secret-recording-says-former-rwandan-army-major-proves-government-hires-assassins-to-kill-critics-abroad/article18396349/>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.globalpost.com': <GET http://www.globalpost.com/dispatch/news/regions/africa/120328/rwanda-economic-growth-pulling-rwandans-out-poverty>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.straitstimes.com': <GET https://www.straitstimes.com/singapore/singapores-visionary-mr-lee-kuan-yew-inspires-followers-in-africa-including-Rwanda>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'newrepublic.com': <GET https://newrepublic.com/article/143053/american-soldiers-grieved-saddam-hussein>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'news.bbc.co.uk': <GET http://news.bbc.co.uk/2/hi/middle_east/1100529.stm>
+2020-05-13 23:36:30 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'authority.bibsys.no': <GET https://authority.bibsys.no/authority/rest/authorities/html/10016856>
+2020-05-13 23:36:30 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://en.wikipedia.org/w/index.php?title=FuryBSD&action=edit&redlink=1>
+2020-05-13 23:36:30 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://en.wikipedia.org/w/index.php?title=StarBSD&action=edit&redlink=1>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'microsoft.com': <GET http://microsoft.com/windows>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.bbc.com': <GET https://www.bbc.com/news/world-africa-12688033>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.news24.com': <GET https://www.news24.com/MyNews24/Libya-then-and-now-20150917>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'venturesafrica.com': <GET http://venturesafrica.com/the-whitewashing-of-muammar-gaddafi/>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'developer.apple.com': <GET https://developer.apple.com/library/content/documentation/Darwin/Conceptual/KernelProgramming/BSD/BSD.html>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'doc.dl.playstation.net': <GET https://doc.dl.playstation.net/doc/ps4-oss/>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.groklaw.net': <GET http://www.groklaw.net/article.php?story=20050505095249230>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'minnie.tuhs.org': <GET http://minnie.tuhs.org/PUPS/archive_details.html>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.kuro5hin.org': <GET http://www.kuro5hin.org/?op=displaystory;sid=2001/6/19/05641/7357>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.everything2.com': <GET http://www.everything2.com/index.pl?node=BSD%20Code%20in%20Windows>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'yarchive.net': <GET http://yarchive.net/comp/bsd.html>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.djangobook.com': <GET http://www.djangobook.com/en/2.0/chapter05.html#the-mtv-or-mvc-development-pattern>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'fearlessflyer.com': <GET http://fearlessflyer.com/2009/11/20-creative-websites-running-django/>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'instagram-engineering.tumblr.com': <GET https://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances-dozens-of>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'developer.mozilla.org': <GET https://developer.mozilla.org/en/Python#Use_of_Python_at_Mozilla>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'opensource.washingtontimes.com': <GET http://opensource.washingtontimes.com/>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'blog.disqus.com': <GET http://blog.disqus.com/post/62187806135/scaling-django-to-8-billion-page-views>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'code.djangoproject.com': <GET https://code.djangoproject.com/wiki/DjangoSuccessStoryBitbucket>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.theverge.com': <GET https://www.theverge.com/2014/8/18/6030393/nextdoor-private-social-network-40000-neighborhoods>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.quora.com': <GET https://www.quora.com/What-is-the-history-of-the-Django-web-framework-Why-has-it-been-described-as-developed-in-a-newsroom>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'djangobook.com': <GET https://djangobook.com/introducing-django/>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'coffeeonthekeyboard.com': <GET http://coffeeonthekeyboard.com/best-basic-security-practices-especially-with-django-697/>
+2020-05-13 23:36:31 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'django-reusable-app-docs.readthedocs.org': <GET https://django-reusable-app-docs.readthedocs.org/en/latest/>
+2020-05-13 23:36:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://zh.wikipedia.org/wiki/%E7%BB%88%E8%BA%AB%E4%BB%81%E6%85%88%E7%8B%AC%E8%A3%81%E8%80%85> (referer: https://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+2020-05-13 23:36:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/PHP> (referer: https://en.wikipedia.org/wiki/OCaml)
+2020-05-13 23:36:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Darwin_(operating_system)> (referer: https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)
+2020-05-13 23:36:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/Permissive_software_license> (referer: https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)
+2020-05-13 23:36:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://en.wikipedia.org/wiki/System_V> (referer: https://en.wikipedia.org/wiki/Berkeley_Software_Distribution)
