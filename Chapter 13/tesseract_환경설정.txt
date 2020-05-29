@@ -1,0 +1,8 @@
+제어판 > 시스템 > 고급 시스템 설정
+고급 > 환경 변수
+
+[시스템 변수]
+* Path
+C:\Program Files\Tesseract-OCR
+* TESSDATA_PREFIX
+C:\Program Files\Tesseract-OCR\tessdata
